@@ -3,51 +3,121 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Asesoría Jurídica & Generación de Contratos</title>
+  <title>Asesoría Jurídica & Automatización de Contratos | Eider Álvarez</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+  <!-- NAVEGACIÓN -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand">EIDER ÁLVAREZ <span>| ASESORÍA JURÍDICA</span></a>
+      <ul class="nav-links">
+        <li><a href="#servicio">Servicio</a></li>
+        <li><a href="#infografia">Infografía</a></li>
+        <li><a href="#video">Demostración</a></li>
+        <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
   <header class="hero">
-    <div class="container">
-      <h1>Redacción Automatizada de Contratos de Prestación de Servicios</h1>
-      <p>Servicios jurídicos profesionales, ágiles y con estricto rigor legal en Colombia.</p>
-      <a href="#contacto" class="btn">Solicitar Contrato</a>
+    <div class="container hero-container">
+      <div class="hero-text">
+        <span class="badge">Derecho Legal Tech · Colombia</span>
+        <h1>Redacción Automatizada de Contratos de Prestación de Servicios</h1>
+        <p>Estandarización jurídica de alto nivel mediante inteligencia artificial (Gemini Skills). Rigor legal, precisión en 28 cláusulas clave y agilidad inmediata para su firma.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary">Solicitar Contrato</a>
+          <a href="#video" class="btn btn-secondary">Ver Demostración</a>
+        </div>
+      </div>
     </div>
   </header>
 
-  <section class="features container">
-    <h2>¿Cómo Funciona el Servicio?</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>1. Datos Básicos</h3>
-        <p>Solo indicas los datos del Contratante, el Objeto del encargo y el Valor de los Honorarios pactados.</p>
+  <!-- SERVICIO & CARACTERÍSTICAS -->
+  <section id="servicio" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Ingeniería Legal Aplicada</h2>
+        <p>Procesamiento estructurado sobre plantilla oficial de 28 cláusulas garantizando cumplimiento normativo en Colombia.</p>
       </div>
-      <div class="card">
-        <h3>2. Plantilla Estandarizada</h3>
-        <p>El contrato se genera sobre la estructura oficial de 28 cláusulas legales garantizando plena validez.</p>
-      </div>
-      <div class="card">
-        <h3>3. Entrega Inmediata</h3>
-        <p>Recibes el contrato redactado listo para revisión, firma y ejecución ejecutiva.</p>
+
+      <div class="grid-cards">
+        <div class="card">
+          <div class="card-icon">01</div>
+          <h3>Insumos Básicos</h3>
+          <p>Solo requiere especificar los datos del Contratante, el Objeto del encargo y la Forma de Pago acordada.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">02</div>
+          <h3>Matriz Institucional</h3>
+          <p>Estructura rígida de protección: alcance exclusivo, mérito ejecutivo (Art. 422 CGP), confidencialidad y responsabilidad solidaria.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">03</div>
+          <h3>Firma Inmediata</h3>
+          <p>Emisión en tiempo real en formato normalizado, listo para revisión, impresión o firma digital.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="cta container">
-    <h2>Estructura Jurídica Garantizada</h2>
-    <p>Incluye cláusulas de confidencialidad, solidaridad, alcance del servicio, mérito ejecutivo y régimen de honorarios.</p>
+  <!-- INFOGRAFÍA -->
+  <section id="infografia" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <h2>Infografía del Proceso Legal Tech</h2>
+        <p>Flujo conceptual de integración entre IA asistida y la práctica del Derecho Comercial/Civil en Colombia.</p>
+      </div>
+
+      <div class="media-container infographic-wrapper">
+        <img src="infografia.png" alt="Infografía del proceso de automatización jurídica con IA" class="infographic-img" onerror="this.onerror=null; this.src='https://via.placeholder.com/1200x800/1e293b/ffffff?text=Cargue+aqui+su+archivo+infografia.png';">
+      </div>
+    </div>
   </section>
 
-  <footer id="contacto">
+  <!-- DEMOSTRACIÓN EN VIDEO -->
+  <section id="video" class="section">
     <div class="container">
-      <p><strong>Eider Alexander Álvarez Cortés</strong> - Asesoría y Servicios Jurídicos</p>
-      <p>
-        <a href="mailto:eideralvarez.juridico@gmail.com">eideralvarez.juridico@gmail.com</a> &nbsp;|&nbsp;
-        <a href="tel:+573000000000">+57 300 000 0000</a> &nbsp;|&nbsp;
-        Antioquia, Colombia
-      </p>
-      <p>&copy; 2026 Todos los derechos reservados.</p>
+      <div class="section-header">
+        <h2>Video Demostrativo del Flujo</h2>
+        <p>Presentación audiovisual de la ejecución y generación automatizada de minutas jurídicas.</p>
+      </div>
+
+      <div class="media-container video-wrapper">
+        <video controls class="video-player">
+          <source src="FINAL.mov" type="video/quicktime">
+          <source src="video.mp4" type="video/mp4">
+          Tu navegador no soporta el reproductor de video.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO & FOOTER -->
+  <footer id="contacto" class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <h3>Eider Alexander Álvarez Cortés</h3>
+        <p>Asesoría Legal Independiente & Derecho Notarial / Inmobiliario</p>
+        <p>Caldas / Medellín, Antioquia — Colombia</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contacto Directo</h4>
+        <p>📧 <a href="mailto:eideralvarez.juridico@gmail.com">eideralvarez.juridico@gmail.com</a></p>
+        <p>📱 <a href="tel:+573000000000">+57 300 000 0000</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Eider Alexander Álvarez Cortés. Todos los derechos reservados. Desarrollado con OpenCode & Gemini Skills.</p>
     </div>
   </footer>
+
 </body>
 </html>
