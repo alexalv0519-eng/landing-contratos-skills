@@ -1,5 +1,7 @@
 # Landing Page & Skill de Redacción de Contratos de Prestación de Servicios
 
+# enlacelanding: https://alexalv0519-eng.github.io/landing-contratos-skills/
+
 ## Descripción del Proyecto
 Este proyecto forma parte de la integración de Inteligencia Artificial (IA) aplicada al ejercicio del Derecho Comercial y Civil en Colombia mediante **Gemini Skills**. Su objetivo es automatizar la generación de Contratos de Prestación de Servicios Profesionales Jurídicos, garantizando la rigurosidad de una plantilla institucional estandarizada de **28 cláusulas legales**.
 
